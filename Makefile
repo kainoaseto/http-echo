@@ -44,7 +44,7 @@ LD_FLAGS ?= \
 	-X ${PROJECT}/version.GitCommit=${GIT_COMMIT}
 
 # List of Docker targets to build
-DOCKER_TARGETS ?= scratch
+DOCKER_TARGETS ?= alpine
 
 # List of tests to run
 TEST ?= ./...
